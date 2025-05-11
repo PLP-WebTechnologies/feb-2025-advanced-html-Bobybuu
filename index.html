@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Advanced HTML5 Elements and Forms</h1>
+  </header>
+
+  <main>
+
+    <!-- Ordered List Section -->
+    <section>
+      <h2>Topics Covered</h2>
+      <ol type="I">
+        <li>HTML5 Images</li>
+        <li>Lists</li>
+        <li>Tables</li>
+        <li>Forms and Input Types</li>
+        <li>Audio and Video</li>
+      </ol>
+    </section>
+
+    <!-- External Image Section -->
+    <section>
+      <h2>External Image from Pexels</h2>
+      <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Mountain Landscape from Pexels" width="600">
+    </section>
+
+    <!-- Table Section -->
+    <section>
+      <h2>Contact List</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jane Doe</td>
+            <td>123 Maple St, Nairobi</td>
+            <td>0700123456</td>
+            <td>jane@example.com</td>
+          </tr>
+          <tr>
+            <td>John Smith</td>
+            <td>456 Oak Rd, Kisumu</td>
+            <td>0712345678</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary Wambui</td>
+            <td>789 Pine Ave, Eldoret</td>
+            <td>0723456789</td>
+            <td>mary@example.com</td>
+          </tr>
+          <tr>
+            <td>David Otieno</td>
+            <td>321 Palm St, Mombasa</td>
+            <td>0734567890</td>
+            <td>david@example.com</td>
+          </tr>
+          <tr>
+            <td>Alice Mwangi</td>
+            <td>654 Birch Blvd, Nakuru</td>
+            <td>0745678901</td>
+            <td>alice@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="/submit" method="post">
+
+        <!-- Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter full name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email address" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6"><br><br>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">-- Select Country --</option>
+          <option value="kenya">Kenya</option>
+          <option value="uganda">Uganda</option>
+          <option value="tanzania">Tanzania</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br><br>
+
+        <!-- Submit -->
+        <button type="submit">Register</button>
+
+      </form>
+    </section>
+
+    <!-- Optional Multimedia Section -->
+    <section>
+      <h2>Multimedia</h2>
+
+      <!-- Audio -->
+      <p>Sample Audio:</p>
+      <audio controls>
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+      </audio><br><br>
+
+      <!-- Video -->
+      <p>Sample Video:</p>
+      <video width="320" height="240" controls>
+        <source src="https://youtu.be/0WOHZ9QhI9M?si=4KLqvoPP4AGXICpr" type="video/mp4">
+      </video>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made by Chris</p>
+  </footer>
+
+</body>
+</html>
